@@ -47,6 +47,46 @@ header .carousel-indicators [data-bs-target] {
   font-family: "Courgette";
   font-size: 7vh;
 }
+#section1 #btn-menu {
+  padding: 15px;
+  border-left: none;
+  border-top: none;
+  font-family: "Courgette";
+  font-size: 5vh;
+}
+#section1 #section1-bigdiv {
+  width: 90%;
+  margin: auto;
+}
+#section1 #section1-plats img {
+  width: 25%;
+  border: 1px solid #7F7F80;
+  background-color: #7F7F80;
+}
+
+#section2 {
+  background-color: #111;
+}
+#section2 h2, #section2 .h2 {
+  font-family: "Courgette";
+  font-size: 6vh;
+}
+
+#section3 {
+  background-image: url("../img/main_bg.jpg");
+}
+#section3 h2, #section3 .h2 {
+  font-family: "Courgette";
+  font-size: 7vh;
+}
+#section3 #section3-bigdiv {
+  width: 90%;
+  margin: auto;
+}
+#section3 #form {
+  background-image: url("../img/book_table_bg.jpg");
+  background-size: cover;
+}
 
 body {
   margin: 0;
