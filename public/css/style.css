@@ -3,7 +3,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/banner1.jpg");
   background-size: cover;
   background-position: center;
-  height: 100%;
+  height: 120vh;
   width: 100%;
 }
 header ul li {
@@ -21,23 +21,11 @@ header ul li:hover {
   background-color: red;
 }
 header .carousel-indicators [data-bs-target] {
-  box-sizing: content-box;
-  flex: 0 1 auto;
-  width: 10px;
-  height: 10px;
-  padding: 0;
-  margin-right: 3px;
-  margin-left: 3px;
-  text-indent: -999px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
   cursor: pointer;
   background-color: #fff;
-  background-clip: padding-box;
-  border: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  opacity: 0.5;
-  transition: opacity 0.6s ease;
-  border-radius: 100%;
 }
 
 #section1 {
@@ -86,6 +74,29 @@ header .carousel-indicators [data-bs-target] {
 #section3 #form {
   background-image: url("../img/book_table_bg.jpg");
   background-size: cover;
+}
+
+#section4 {
+  background-image: url("../img/testimonials_background.jpg");
+}
+#section4 h2, #section4 .h2 {
+  font-family: "Courgette";
+}
+
+#section5 {
+  background-image: url("../img/main_bg.jpg");
+}
+#section5 h2, #section5 .h2 {
+  font-family: "Courgette";
+}
+
+#section5-form {
+  width: 35%;
+  border-radius: 15px;
+}
+
+#section6 {
+  background-image: url("../img/footer_background.jpg");
 }
 
 body {
