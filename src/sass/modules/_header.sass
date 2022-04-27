@@ -18,12 +18,23 @@ header
         cursor: pointer
         background-color: red
     
-    .carousel-indicators [data-bs-target]  
-        width: 15px
-        height: 15px
-        border-radius: 50%
-        cursor: pointer
-        background-color: #fff
+    .carousel-indicators
+        .round-btn
+            width: 18px
+            height: 18px
+            border-radius: 50%
+    .round-btn.active
+        background-color: white
+        display: flex
+        justify-content: center
+        align-items: center
+        div
+            width: 13px
+            height: 13px
+            border: 3px solid black
+            background-color: white
+            z-index: 2
+            border-radius: 50%
 
     #header-btn
         font-family: "Roboto", sans-sherif
