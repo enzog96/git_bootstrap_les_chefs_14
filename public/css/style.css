@@ -69,6 +69,12 @@ header #header-btn {
   #secret-div {
     display: none !important;
   }
+
+  #testimonials-img {
+    display: flex !important;
+    align-items: center !important;
+    width: 150px;
+  }
 }
 @media (min-width: 320px) and (max-width: 739px) {
   nav img {
