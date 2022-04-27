@@ -122,6 +122,16 @@ header #header-btn {
 #section1 input {
   display: none;
 }
+#section1 label h1, #section1 label .h1 {
+  font-family: "Courgette";
+  font-size: 3vh;
+}
+#section1 i {
+  color: #CCCCCC;
+}
+#section1 i:hover {
+  color: #ff0000;
+}
 
 #section2 {
   background-color: #111;
