@@ -14,9 +14,40 @@
 <body>
 
     <header id="header">
+
+        <div id="secret-div" class="d-flex fixed-top"> 
+            <ul class="d-flex flex-wrap justify-content-between list-unstyled ">
+                <li class="nav-item">
+                    <a class="nav-link  text-white" href="#header">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-white" href="#section7">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-white" href="#menu-list">MENU LIST</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-white" href="#section2">TEAM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-white" href="#section3">RESERVATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-white" href="#blog">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-white" href="#section4">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link  text-white" href="#section5">CONTACT US</a>
+                </li>
+            </ul>
+
+        </div>
+
         <nav>
-            <div class="d-flex flex-wrap justify-content-center fixed-top">
-                <div class=" d-inline align-self-center p-lg-5">
+            <div class="d-lg-flex d-sm-flex flex-wrap justify-content-center fixed-top">
+                <div class=" d-inline align-self-center p-0 p-sm-0 p-lg-5">
                     <ul class="d-flex gap-3 list-unstyled border-top border-bottom border-1 ">
                         <li class="nav-item">
                             <a class="nav-link  text-white" href="#header">HOME</a>
@@ -57,12 +88,18 @@
 
         <div id="carouselExampleIndicators" class="carousel slide p-lg-5 p-sm-0" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active round-btn"
-                    aria-current="true" aria-label="Slide 1"><div></div></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active round-btn"
-                    aria-label="Slide 2"><div></div></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="active round-btn"
-                    aria-label="Slide 3"><div></div></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active round-btn" aria-current="true" aria-label="Slide 1">
+                    <div></div>
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    class="active round-btn" aria-label="Slide 2">
+                    <div></div>
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    class="active round-btn" aria-label="Slide 3">
+                    <div></div>
+                </button>
             </div>
             <div class="p-5">
             </div>
@@ -108,17 +145,17 @@
     </header>
 
     <main>
-        <section id="section1" class="p-5">
+        <section id="section1" class="p-lg-5">
 
             <div id="section1-bigdiv" class=" text-center bg-light ">
                 <div class="row justify-content-between m-0">
                     <img class="col-1 p-0" src="../img/box-left-top.png" alt="">
-                    
+
                     <img class="col-1 p-0" src="../img/box-right-top.png" alt="">
                 </div>
                 <div class="col-10 align-self-center text-center m-auto">
                     <h2><span class="text-danger">OUR</span> Story</h2>
-                    <img src="../img/decoration_line.png" alt="">
+                    <img id="dec-line" src="../img/decoration_line.png" alt="">
                 </div>
                 <p class="p-5">Ut enim ad minim veniam, quised nostrud exe rcitationes ullamcoes laboris nisi <br> ut
                     aliquid ex ea commodo consequat. Duis aute irure dolor in reprehe ut labore <br>et dolore magna
@@ -129,39 +166,43 @@
                 </p>
                 <div id="menu-list" class="p-5">
                     <h2><span class="text-danger">OUR</span> Menu List</h2>
-                    <img src="../img/decoration_line.png" alt="">
+                    <img id="dec-line" src="../img/decoration_line.png" alt="">
                 </div>
-                <div class="d-flex align-items-start mx-0 pb-5">
-                    <div class="nav flex-column nav-pills me-3 w-25 ">
+                <div id="label-btn" class="d-flex align-items-start mx-0 pb-5">
+                    <div id="label-btn" class="nav flex-column nav-pills me-3 w-25 ">
                         <label for="first">
-                            <div class="d-flex flex-column align-items-center text-center pt-5 fabord border-end border-bottom">
+                            <div
+                                class="d-flex flex-column align-items-center text-center pt-5 fabord border-end border-bottom">
                                 <i class="fa-solid fa-mug-hot fa-4x"></i>
                                 <h1 class="stylefont p-1">Breakfast</h1>
                             </div>
                         </label>
                         <label for="second">
-                            <div class="d-flex flex-column align-items-center text-center pt-3 fabord border-end border-bottom">
+                            <div
+                                class="d-flex flex-column align-items-center text-center pt-3 fabord border-end border-bottom">
                                 <i class="fa-solid fa-burger fa-4x"></i>
                                 <h1 class="stylefont p-1">Lunch</h1>
                             </div>
                         </label>
                         <label for="third">
-                            <div class="d-flex flex-column align-items-center text-center pt-3 fabord border-end border-bottom">
+                            <div
+                                class="d-flex flex-column align-items-center text-center pt-3 fabord border-end border-bottom">
                                 <i class="fa-solid fa-bell-concierge fa-4x"></i>
                                 <h1 class="stylefont p-1">Snacks</h1>
                             </div>
                         </label>
                         <label for="fourth">
-                            <div class="d-flex flex-column align-items-center text-center pt-3 fabord border-end border-bottom">
+                            <div
+                                class="d-flex flex-column align-items-center text-center pt-3 fabord border-end border-bottom">
                                 <i class="fa-solid fa-mug-hot fa-4x"></i>
                                 <h1 class="stylefont p-1">Dinner</h1>
                             </div>
                         </label>
                         <label for="fourth">
                             <div class="d-flex flex-column align-items-center text-center pt-3 fabord border-end">
-                                <div class="p-5">
+                                <div id="empty-div" class="p-5">
                                 </div>
-                                
+
                             </div>
                         </label>
                     </div>
@@ -169,73 +210,88 @@
                     <input id="first" type="radio" name="menu">
                     <div id="section1-plats1">
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6  justify-content-between align-items-center border-bottom p-2">
-                                <img class="rounded-circle border-5 " src="../img/menu_image_1.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                            <div
+                                class="d-flex col-lg col-md-6  justify-content-between align-items-center border-bottom p-2">
+                                <img class="rounded-circle border-5" src="../img/menu_image_1.jpg" alt="">
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar" class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_1.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_1.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar" class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_1.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_1.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_1.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_1.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_1.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_1.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_1.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                     </div>
@@ -243,73 +299,88 @@
                     <input id="second" type="radio" name="menu">
                     <div id="section1-plats2">
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_2.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_2.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_2.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_2.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_2.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_2.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_2.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_2.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto  text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_2.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_2.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                     </div>
@@ -317,73 +388,88 @@
                     <input id="third" type="radio" name="menu">
                     <div id="section1-plats3">
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_3.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_3.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_3.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_3.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_3.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_3.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_3.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_3.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_3.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_3.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                     </div>
@@ -391,73 +477,88 @@
                     <input id="fourth" type="radio" name="menu">
                     <div id="section1-plats4">
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_4.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_4.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_4.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_4.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_4.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_4.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_4.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_4.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                         <div class="row m-auto text-start">
-                            <div class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
+                            <div
+                                class="d-flex col-lg col-md-6 justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5 " src="../img/menu_image_4.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">25$</p>
                             </div>
                             <div class="d-flex col justify-content-between align-items-center border-bottom p-2">
                                 <img class="rounded-circle border-5" src="../img/menu_image_4.jpg" alt="">
-                                <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto restaurant
+                                <p id="plats-p"><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
+                                    restaurant
                                     <br>website. Here we try to share our</p>
-                                <p class="text-danger border bg-secondary">25$</p>
+                                <p id="dollar"  class="text-danger border ">35$</p>
                             </div>
                         </div>
                     </div>
@@ -467,7 +568,7 @@
                 <div class="row justify-content-between m-0">
                     <img class="col-1 p-0" src="../img/box-bottom-left.png" alt="">
                     <div class="col-10 align-self-center">
-                        <img src="../img/decoration_line.png" alt="">
+                        <img id="dec-line" src="../img/decoration_line.png" alt="">
                     </div>
                     <img class="col-1 p-0" src="../img/box-bottom_right.png" alt="">
                 </div>
@@ -477,9 +578,9 @@
         </section>
 
         <section id="section2" class="p-5">
-            <div class="text-center p-5">
+            <div id="chef" class="text-center p-5">
                 <h2 class="text-white"> <span class="text-danger">MEET</span> Our Chef</h2>
-                <img src="../img/decoration_line.png" alt="">
+                <img id="dec-line" src="../img/decoration_line.png" alt="">
             </div>
             <div class="row text-center">
                 <div class="col">
@@ -513,9 +614,9 @@
                 </div>
                 <div class="col-10 text-center m-auto">
                     <h2><span class="text-danger">BOOK</span> Your Table</h2>
-                    <img src="../img/decoration_line.png" alt="">
+                    <img id="dec-line" src="../img/decoration_line.png" alt="">
                 </div>
-                <div class="p-5">
+                <div id="empty-div" class="p-5">
 
                 </div>
 
@@ -577,37 +678,41 @@
 
                 <div id="blog" class=" align-self-center p-5">
                     <h2><span class="text-danger">OUR</span> Blog</h2>
-                    <img src="../img/decoration_line.png" alt="">
+                    <img id="dec-line" src="../img/decoration_line.png" alt="">
                 </div>
 
-            <div id="ourblog-1">
-                <div class="row">
-                    <div class="col-12 col-md-6 ms-auto">
-                        <div class="ourblog-bg1 mb-5">
-                            <p class="ourblog-p bg-danger rounded text-white p-3  "><span
-                                    class="fs-5 fw-bold text-white">12</span class="fs-5 fw-bold text-white">April2022/
-                                <span class="fs-5 fw-bold text-white">20</span>Comment/ <span
-                                    class="fs-5 fw-bold text-white">35</span>Likes</p>
+                <div id="ourblog-1">
+                    <div class="row">
+                        <div class="col-12 col-md-6 ms-auto">
+                            <div class="ourblog-bg1 mb-5">
+                                <p class="ourblog-p bg-danger rounded text-white p-3  "><span
+                                        class="fs-5 fw-bold text-white">12</span
+                                        class="fs-5 fw-bold text-white">April2022/
+                                    <span class="fs-5 fw-bold text-white">20</span>Comment/ <span
+                                        class="fs-5 fw-bold text-white">35</span>Likes</p>
+                            </div>
+                            <div class="px-5">
+                                <h3 class="text-lg-start text-md-center">Lorem Ipsum</h3>
+                                <p class="text-lg-start text-md-center">Lorem Ipsum is simply dummy text of the printing
+                                    and<br>typesetting industry.</p>
+                            </div>
                         </div>
-                        <div class="px-5">
-                            <h3 class="text-lg-start text-md-center">Lorem Ipsum</h3>
-                            <p class="text-lg-start text-md-center">Lorem Ipsum is simply dummy text of the printing and<br>typesetting industry.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 ms-auto">
-                        <div class="ourblog-bg2 mb-5">
-                            <p class="ourblog-p bg-danger rounded text-white p-3 "><span
-                                    class="fs-5 fw-bold text-white">12</span class="fs-5 fw-bold text-white">April2022/
-                                <span class="fs-5 fw-bold text-white">20</span>Comment/ <span
-                                    class="fs-5 fw-bold text-white">35</span>Likes</p>
-                        </div>
-                        <div class="px-5">
-                            <h3 class="text-lg-start text-md-center">Lorem Ipsum</h3>
-                            <p class="text-lg-start text-md-center">Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry.</p>
+                        <div class="col-12 col-md-6 ms-auto">
+                            <div class="ourblog-bg2 mb-5">
+                                <p class="ourblog-p bg-danger rounded text-white p-3 "><span
+                                        class="fs-5 fw-bold text-white">12</span
+                                        class="fs-5 fw-bold text-white">April2022/
+                                    <span class="fs-5 fw-bold text-white">20</span>Comment/ <span
+                                        class="fs-5 fw-bold text-white">35</span>Likes</p>
+                            </div>
+                            <div class="px-5">
+                                <h3 class="text-lg-start text-md-center">Lorem Ipsum</h3>
+                                <p class="text-lg-start text-md-center">Lorem Ipsum is simply dummy text of the printing
+                                    and <br>typesetting industry.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
                 <div class="p-5">
                     <button class="rounded-pill bg-danger text-white border-danger btn-lg">KNOW MORE</button>
@@ -625,28 +730,28 @@
         </section>
 
         <section id="section4" class="p-5">
-            <div class=" text-center align-self-center p-5">
+            <div id="testis" class=" text-center align-self-center p-5">
                 <h2 class="text-white"><span class="text-danger">CLIENTS</span> Testimonials</h2>
-                <img src="../img/decoration_line.png" alt="">
+                <img id="dec-line" src="../img/decoration_line.png" alt="">
             </div>
 
-            <div class="row justify-content-center gap-4 ">
-                <div class="col-2">
+            <div id="testimonials-in" class="row justify-content-center gap-4 ">
+                <div id="testimonials-img" class="col-2">
                     <img class="rounded-circle w-75 float-end border border-5 border-white"
                         src="../img/testimonial1.jpg" alt="">
                 </div>
-                <div class="border rounded-3 border-secondary col-3">
+                <div class="border rounded-3 border-secondary col">
                     <h5 class="text-white pt-3">Lorem Ipsum</h5>
                     <p class="text-white"><span class="text-danger">Manager</span> <br> Lorem ipsum dolor sit amet,
                         consectetur <br>adipisicing elit sed do eiusmod tempor in subascidi <br>dunt ut</p>
                 </div>
-                <div class="border rounded-3 border-secondary col-3 ">
+                <div class="border rounded-3 border-secondary col ">
                     <h5 class="text-white pt-3">Lorem Ipsum</h5>
                     <p class="text-white"><span class="text-danger">Manager</span> <br> Lorem ipsum dolor sit amet,
                         consectetur <br>adipisicing elit sed do eiusmod tempor in subascidi <br>dunt ut</p>
                 </div>
 
-                <div class="col-2">
+                <div id="testimonials-img" class="col-2">
                     <img class="rounded-circle w-75 float-start border border-5 border-white"
                         src="../img/testimonial1.jpg" alt="">
                 </div>
@@ -675,7 +780,7 @@
 
         <section id="section6" class="p-5 text-white">
             <div class="row justify-content-center">
-                <div class="col-4">
+                <div class="col-12 col-lg-4 col-sm-4 ">
                     <h2>ABOUT US</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incidunt ut
                         labore et dolore <br>magna aliqua. Ut enim ad minim veniam, quis nostrud <br>exercitation
@@ -687,9 +792,9 @@
                         <i class="fa-brands fa-linkedin-in fa-2x p-2"></i>
                     </div>
                 </div>
-                <div class="col-4 ">
+                <div class="col-12 col-lg-4 col-sm-4 ">
                     <h2>INSTAGRAM</h2>
-                    <div class="d-flex flex-wrap gap-1 ">
+                    <div id="footer-div" class="d-flex flex-wrap gap-1 ">
                         <img class="p-2" src="../img/instragram_gallery_img1.jpg" alt="">
                         <img class="p-2" src="../img/instragram_gallery_img2.jpg" alt="">
                         <img class="p-2" src="../img/instragram_gallery_img1.jpg" alt="">
@@ -701,7 +806,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div id="footer-div" class="col-12 col-lg-4 col-sm-4">
                     <h2>POPULAR TAGS</h2>
                     <ul class="list-unstyled d-flex flex-wrap gap-3">
                         <li class="rounded-pill border bg-danger text-center p-2">Restaurant</li>

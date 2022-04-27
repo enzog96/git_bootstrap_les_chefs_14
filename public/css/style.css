@@ -48,6 +48,11 @@ header #header-btn {
   width: 25vh;
 }
 
+@media (min-width: 1040px) {
+  #secret-div {
+    display: none !important;
+  }
+}
 @media (min-width: 740px) and (max-width: 1024px) {
   nav img {
     display: none;
@@ -56,8 +61,16 @@ header #header-btn {
   header h1, header .h1 {
     font-size: 8vh;
   }
+
+  #section5-form {
+    width: 75% !important;
+  }
+
+  #secret-div {
+    display: none !important;
+  }
 }
-@media (min-width: 320px) and (max-width: 740px) {
+@media (min-width: 320px) and (max-width: 739px) {
   nav img {
     display: none;
   }
@@ -67,6 +80,132 @@ header #header-btn {
   }
   header h1 br, header .h1 br {
     display: none;
+  }
+
+  #section1 {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  #section1-bigdiv {
+    width: 100% !important;
+  }
+  #section1-bigdiv p {
+    padding: 0 !important;
+  }
+  #section1-bigdiv #menu-list {
+    padding: 0 !important;
+  }
+  #section1-bigdiv #menu-list h2, #section1-bigdiv #menu-list .h2 {
+    font-size: 5vh !important;
+    padding: 20px !important;
+  }
+
+  #section3 {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  #section3 h2, #section3 .h2 {
+    font-size: 4vh !important;
+    padding: 20px !important;
+  }
+
+  #section3-bigdiv {
+    width: 100% !important;
+  }
+  #section3-bigdiv #form {
+    width: 100% !important;
+  }
+
+  #empty-div {
+    padding: 0 !important;
+  }
+
+  #section4 {
+    padding: 20px !important;
+  }
+
+  #testimonials-in div {
+    border: none !important;
+    text-align: center !important;
+    padding: 0 !important;
+  }
+
+  #testimonials-img {
+    display: none !important;
+  }
+
+  #section5-form {
+    width: 100% !important;
+  }
+
+  #section1-plats1 img {
+    width: 20% !important;
+  }
+
+  #section1-plats2 img {
+    width: 20% !important;
+  }
+
+  #section1-plats3 img {
+    width: 20% !important;
+  }
+
+  #section1-plats4 img {
+    width: 20% !important;
+  }
+
+  #label-btn {
+    display: inline !important;
+  }
+  #label-btn label {
+    width: 20% !important;
+    font-size: 15px !important;
+  }
+  #label-btn label h1, #label-btn label .h1 {
+    font-size: 18px !important;
+  }
+  #label-btn div {
+    border: none !important;
+  }
+
+  #plats-p {
+    font-size: 13px !important;
+  }
+
+  #section6 {
+    text-align: center !important;
+  }
+
+  header ul li {
+    padding: 0 !important;
+    font-size: 10px !important;
+  }
+
+  #dec-line {
+    display: none !important;
+  }
+
+  nav {
+    display: none !important;
+  }
+
+  #secret-div a {
+    font-size: 8px !important;
+  }
+
+  #footer-div {
+    justify-content: center !important;
+  }
+  #section2 #chef {
+    padding: 0 !important;
+  }
+  #section2 #chef h2, #section2 #chef .h2 {
+    font-size: 30px;
+  }
+
+  #section4 h2, #section4 .h2 {
+    padding: 0 !important;
   }
 }
 #section1 {
@@ -164,6 +303,16 @@ header #header-btn {
 }
 #section1 i:hover {
   color: #ff0000;
+}
+#section1 #dollar {
+  background-color: #EFEFEF;
+  border: #EFEFEF;
+  width: 45px;
+  text-align: center;
+}
+#section1 #menu-img1 {
+  border: #EFEFEF;
+  background-color: #EFEFEF;
 }
 
 #section2 {
