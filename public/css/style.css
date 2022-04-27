@@ -156,6 +156,32 @@ header #header-btn {
   background-image: url("../img/book_table_bg.jpg");
   background-size: cover;
 }
+#section3 .ourblog-bg1 {
+  background: url("../img/blog_img1.jpg");
+  height: 40vh;
+  background-size: cover;
+  border-radius: 2vh;
+  border: lightgray 4px solid;
+  position: relative;
+}
+#section3 .ourblog-bg2 {
+  background: url("../img/blog_img2.jpg");
+  height: 40vh;
+  background-size: cover;
+  border-radius: 2vh;
+  border: lightgray 4px solid;
+  position: relative;
+}
+#section3 .ourblog-p {
+  position: absolute;
+  bottom: -43px;
+  left: 10%;
+  width: 80%;
+}
+#section3 #ourblog-1 {
+  width: 80%;
+  margin: auto;
+}
 
 #section4 {
   background-image: url("../img/testimonials_background.jpg");
