@@ -319,9 +319,21 @@ header #header-btn {
   width: 45px;
   text-align: center;
 }
-#section1 #menu-img1 {
-  border: #EFEFEF;
-  background-color: #EFEFEF;
+#section1 #section1-plats1 img {
+  border: 3px solid #AEAFAE;
+  background-color: #AEAFAE;
+}
+#section1 #section1-plats2 img {
+  border: 3px solid #AEAFAE;
+  background-color: #AEAFAE;
+}
+#section1 #section1-plats3 img {
+  border: 3px solid #AEAFAE;
+  background-color: #AEAFAE;
+}
+#section1 #section1-plats4 img {
+  border: 3px solid #AEAFAE;
+  background-color: #AEAFAE;
 }
 
 #section2 {
