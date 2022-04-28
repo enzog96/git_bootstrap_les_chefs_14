@@ -90,7 +90,7 @@ header #header-btn {
 
   #section1 {
     width: 100% !important;
-    padding: 0 !important;
+    padding: 5px !important;
   }
 
   #section1-bigdiv {
@@ -254,22 +254,22 @@ header #header-btn {
   margin: auto;
 }
 #section1 #section1-plats1 img {
-  width: 30%;
+  width: 25%;
   border: 1px solid #7F7F80;
   background-color: #7F7F80;
 }
 #section1 #section1-plats2 img {
-  width: 30%;
+  width: 25%;
   border: 1px solid #7F7F80;
   background-color: #7F7F80;
 }
 #section1 #section1-plats3 img {
-  width: 30%;
+  width: 25%;
   border: 1px solid #7F7F80;
   background-color: #7F7F80;
 }
 #section1 #section1-plats4 img {
-  width: 30%;
+  width: 25%;
   border: 1px solid #7F7F80;
   background-color: #7F7F80;
 }
@@ -309,6 +309,9 @@ header #header-btn {
 }
 #section1 i:hover {
   color: #ff0000;
+}
+#section1 label:hover {
+  border-right: 5px solid #ff0000;
 }
 #section1 #dollar {
   background-color: #EFEFEF;
